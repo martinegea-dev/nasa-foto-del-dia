@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+header p {
+    width: 80%;
+}
+.logo {
+    background: url(../images/NASA-Logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+}
+main {
+    width: 95%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main img {
+    width: 100%;
+}
